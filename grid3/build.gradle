@@ -1,0 +1,13 @@
+dependencies {
+  implementation('org.seleniumhq.selenium:selenium-server:3.141.59')
+  implementation('io.github.bonigarcia:webdrivermanager:4.4.3')
+  runtimeOnly("org.slf4j:slf4j-simple:1.7.36")
+}
+
+apply plugin : "application"
+
+application {
+  mainClassName = "io.github.asolntsev.StartGrid3"
+}
+
+

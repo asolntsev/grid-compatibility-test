@@ -1,0 +1,11 @@
+allprojects {
+  group = 'io.github.asolntsev'
+  version = '1.0.0-SNAPSHOT'
+}
+
+subprojects {
+  apply plugin: 'java'
+  apply plugin: 'java-library'
+  defaultTasks 'check'
+  repositories { mavenCentral() }
+}
